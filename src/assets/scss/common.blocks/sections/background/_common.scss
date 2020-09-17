@@ -259,6 +259,7 @@
 
   .chip-01_position-1 {
     left: 48%;
+    top: 65px;
   }
 
   .chip-01 {
@@ -267,7 +268,7 @@
   }
 
   .chip-02_position-1 {
-    bottom: 250px;
+    bottom: 135px;
     left: auto;
     right: 10px;
   }
@@ -278,11 +279,37 @@
     right: 190px;
     bottom: -15px;
   }
+
+  .chip-06_position-1 {
+    bottom: -170px;
+    top: auto;
+    left: 50px;
+  }
+
+  .human-bg-1 {
+    background: url("../img/human-bg-mob.png") no-repeat center;
+    background-size: 100% auto;
+    width: 753px;
+    height: 711px;
+    right: -67px;
+  }
+
+  .corner-shadow-02 {
+    width: 366px;
+    height: 740px;
+    right: -15%;
+    top: -250px;
+  }
+
+  .corner-shadow-01 {
+    width: 350px;
+  }
 }
 
 @media (max-width: 767.98px) {
   .chip-02,
-  .chip-01 {
+  .chip-01,
+  .corner-shadow-01 {
     display: none;
   }
 
@@ -301,7 +328,14 @@
 
   .chip-06_position-1 {
     bottom: -58px;
-    top: auto;
     left: 50px;
+  }
+
+  .corner-shadow-02 {
+    width: 915px;
+    height: 583px;
+    top: -250px;
+    left: 0;
+    right: auto;
   }
 }

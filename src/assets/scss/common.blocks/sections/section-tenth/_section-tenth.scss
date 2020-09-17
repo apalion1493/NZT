@@ -71,3 +71,28 @@
     margin-bottom: 160px;
   }
 }
+
+@media (max-width: 767.98px) {
+  .section-tenth {
+    padding-bottom: 77px;
+  }
+
+  .section-tenth .h2 {
+    margin-bottom: 40px;
+  }
+
+  .section-tenth__wrapper:before {
+    background: url("../img/section-tenth__wrapper-MOB2.png") no-repeat center;
+    background-size: 100% auto;
+  }
+
+  .section-tenth__wrapper-block .links-social {
+    flex-direction: row;
+    max-width: 144px;
+  }
+
+  .section-tenth__wrapper-block .links-social__item {
+    width: 62px;
+    height: 52px;
+  }
+}

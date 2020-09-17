@@ -10,6 +10,19 @@
   position: relative;
   z-index: 1;
   margin-left: 187px;
+
+  &:after {
+    content: '';
+    background: url("../img/chip-05.png") no-repeat center;
+    background-size: 100% auto;
+    width: 238px;
+    height: 161px;
+    display: block;
+    position: absolute;
+    bottom: 32px;
+    left: -93px;
+    z-index: 2;
+  }
 }
 
 .mobile-device {
@@ -25,19 +38,6 @@
     transform: translate(-50%, -50%);
     background: url("../img/mobile-device-bg.png") no-repeat center;
     background-size: 100% auto;
-  }
-
-  &:after {
-    content: '';
-    background: url("../img/chip-05.png") no-repeat center;
-    background-size: 100% auto;
-    width: 238px;
-    height: 161px;
-    display: block;
-    position: absolute;
-    bottom: 32px;
-    left: 60px;
-    z-index: 2;
   }
 }
 
@@ -72,5 +72,73 @@
 
   .mobile-device:after {
     left: -20px;
+  }
+
+  .mobile-device:before {
+    left: 26%;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .mobile-device__wrapper {
+    width: 230px;
+    height: 466px;
+  }
+
+  .mobile-device {
+    &:before {
+      background: url("../img/mobile-device-bg-MOB2.png") no-repeat center;
+      background-size: 100% auto;
+      width: 785px;
+      height: 869px;
+      left: 50%;
+      top: 60%;
+    }
+  }
+
+  .mobile-device__wrapper:after {
+    width: 180px;
+    left: -77px;
+    bottom: 15px;
+  }
+}
+
+@media (max-width: 767.98px) {
+
+  .mobile-device__wrapper {
+    width: 156px;
+    height: 316px;
+    padding-top: 55px;
+    padding-bottom: 30px;
+  }
+
+  .mobile-device__subTitle {
+    font-size: 14px;
+  }
+
+  .mobile-device__text {
+    font-size: 8px;
+  }
+
+  .mobile-device__wrapper:after {
+    width: 84px;
+    height: 87px;
+    right: auto;
+    left: -40px;
+    bottom: 25px;
+  }
+
+  .mobile-device:before {
+    background: url("../img/mobile-device-bg-MOB.png") no-repeat;
+    background-size: 100% auto;
+    width: 650px;
+    height: 575px;
+    left: 54%;
+    top: 51%;
+  }
+
+  .mobile-device__logo {
+    width: 30px;
+    height: 30px;
   }
 }
