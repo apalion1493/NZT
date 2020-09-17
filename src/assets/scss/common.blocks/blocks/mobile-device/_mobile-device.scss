@@ -1,0 +1,76 @@
+.mobile-device__wrapper {
+  background: url("../img/mobile-device.png") no-repeat center;
+  background-size: 100% auto;
+  width: 297px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 82px;
+  padding-bottom: 65px;
+  position: relative;
+  z-index: 1;
+  margin-left: 187px;
+}
+
+.mobile-device {
+  position: relative;
+
+  &:before {
+    content: '';
+    width: 1033px;
+    height: 869px;
+    position: absolute;
+    left: 45%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: url("../img/mobile-device-bg.png") no-repeat center;
+    background-size: 100% auto;
+  }
+
+  &:after {
+    content: '';
+    background: url("../img/chip-05.png") no-repeat center;
+    background-size: 100% auto;
+    width: 238px;
+    height: 161px;
+    display: block;
+    position: absolute;
+    bottom: 32px;
+    left: 60px;
+    z-index: 2;
+  }
+}
+
+.mobile-device__logo {
+  background: url("../img/Pi-Xiu-Ai-Poker.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 52px;
+  height: 52px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mobile-device__subTitle {
+  font-weight: 600;
+  font-size: rem(24);
+  text-align: center;
+  color: $white;
+}
+
+.mobile-device__text {
+  font-size: rem(12);
+  text-align: center;
+  color: $font-color-2;
+}
+
+@media (max-width: 1199.98px) {
+  .mobile-device__wrapper {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .mobile-device:after {
+    left: -20px;
+  }
+}

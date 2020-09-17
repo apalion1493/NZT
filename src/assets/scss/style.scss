@@ -1,0 +1,41 @@
+//LIBRARY
+@import "library.styles/bootstrap/bootstrap";
+
+//MIXINS
+@import "common.blocks/utils/mixins";
+
+//VARIABLE
+@import "common.blocks/utils/variable";
+
+//TEXT
+@import "common.blocks/utils/text";
+
+//FONTS
+@import "common.blocks/utils/fonts";
+
+//SECTIONS
+@import "common.blocks/sections/header/header";
+@import "common.blocks/sections/section-first/section-first";
+@import "common.blocks/sections/section-second/section-second";
+@import "common.blocks/sections/section-third/section-third";
+@import "common.blocks/sections/section-fourth/section-fourth";
+@import "common.blocks/sections/section-fifth/section-fifth";
+@import "common.blocks/sections/section-sixth/section-sixth";
+@import "common.blocks/sections/section-seventh/section-seventh";
+@import "common.blocks/sections/section-eighth/section-eighth";
+@import "common.blocks/sections/section-ninth/section-ninth";
+@import "common.blocks/sections/section-tenth/section-tenth";
+
+
+@import "common.blocks/sections/background/common";
+
+
+//BLOCKS
+@import "common.blocks/blocks/images/common";
+@import "common.blocks/blocks/mobile-device/mobile-device";
+@import "common.blocks/blocks/links-social/links-social";
+
+//main styles
+@import "common.blocks/utils/common";
+
+

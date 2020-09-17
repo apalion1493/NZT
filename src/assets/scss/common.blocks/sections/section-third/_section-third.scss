@@ -1,0 +1,30 @@
+.section-third {
+  padding-top: 136px;
+  padding-bottom: 70px;
+
+  .container {
+    position: relative;
+  }
+}
+
+.section-third__textBlock {
+  padding-top: 141px;
+  max-width: 525px;
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 767.98px) {
+  .section-third {
+    padding-top: 65px;
+  }
+
+  .section-third__textBlock {
+    padding-top: 0;
+    margin-bottom: 45px;
+    
+    .h2 {
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,307 @@
+.corner-shadow-01 {
+  position: absolute;
+  width: 549px;
+  height: 456px;
+  background: linear-gradient(180deg, rgba(33, 170, 252, 0.4) 0%, rgba(62, 206, 144, 0.4) 100%);
+  filter: blur(150px);
+  top: -250px;
+  left: -185px;
+  border-radius: 40%;
+}
+
+.corner-shadow-02 {
+  background: radial-gradient(51.95% 51.95% at 46.52% 48.05%, rgba(56, 255, 169, 0.4) 0%, rgba(33, 170, 252, 0.4) 100%);
+  filter: blur(150px);
+  width: 915px;
+  height: 883px;
+  border-radius: 40%;
+  position: absolute;
+  right: -15%;
+  top: -250px;
+  z-index: 2;
+}
+
+.human-bg-1 {
+  background: url("../img/human-bg-1.png") no-repeat center;
+  background-size: 100% auto;
+  width: 1356px;
+  height: 966px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.chip-01 {
+  background: url("../img/chip-01.png") no-repeat center;
+  background-size: 100% auto;
+  width: 86px;
+  height: 81px;
+  display: block;
+  filter: drop-shadow(0px 26px 50px rgba(0, 0, 0, 0.5));
+}
+
+.chip-02 {
+  background: url("../img/chip-02.png") no-repeat center;
+  background-size: 100% auto;
+  width: 197px;
+  height: 172px;
+  display: block;
+  filter: drop-shadow(0px 26px 50px rgba(0, 0, 0, 0.5));
+}
+
+.chip-04 {
+  background: url("../img/chip-04.png") no-repeat center;
+  background-size: 100% auto;
+  width: 477px;
+  height: 368px;
+  display: block;
+}
+
+.chip-01_position-1 {
+  position: absolute;
+  top: 90px;
+  left: 41%;
+  z-index: 3;
+}
+
+.chip-02_position-1 {
+  position: absolute;
+  left: 43%;
+  bottom: -183px;
+}
+
+.chip-04_position-1 {
+  position: absolute;
+  bottom: -98px;
+  right: -226px;
+}
+
+.playing-card {
+  background: url("../img/playing-card.png") no-repeat center;
+  background-size: 100% auto;
+  width: 539px;
+  height: 420px;
+  display: block;
+}
+
+.playing-card_position-1 {
+  position: absolute;
+  bottom: -543px;
+  right: -87px;
+}
+
+.playing-card-2 {
+  background: url("../img/playing-card-2.png") no-repeat center;
+  background-size: 100% auto;
+  width: 491px;
+  height: 387px;
+  display: block;
+}
+
+.playing-card-2_position {
+  position: absolute;
+  top: -108px;
+  left: 26%;
+  z-index: 1;
+}
+
+.playing-card-3 {
+  background: url("../img/playing-card-3.png") no-repeat center;
+  background-size: 100% auto;
+  width: 491px;
+  height: 387px;
+  display: block;
+}
+
+.playing-card-3_position {
+  position: absolute;
+  right: -76px;
+  top: -105px;
+}
+
+.chip-06 {
+  background: url("../img/chip-06.png") no-repeat center;
+  background-size: 100% auto;
+  width: 283px;
+  height: 268px;
+  display: block;
+}
+
+.chip-06_position-1 {
+  position: absolute;
+  top: -113px;
+  left: 71px;
+}
+
+.chip-10 {
+  background: url("../img/chip-10.png") no-repeat center;
+  background-size: 100% auto;
+  width: 500px;
+  height: 400px;
+  display: block;
+}
+
+.chip-10_position {
+  position: absolute;
+  bottom: -332px;
+  left: -262px;
+}
+
+.playing-card-4 {
+  background: url("../img/playing-card-4.png") no-repeat center;
+  background-size: 100% auto;
+  width: 415px;
+  height: 323px;
+  display: block;
+}
+
+.playing-card-4_position {
+  position: absolute;
+  bottom: -433px;
+  right: -76px;
+}
+
+.chip-11 {
+  background: url("../img/chip-11.png") no-repeat center;
+  background-size: 100% auto;
+  width: 77px;
+  height: 81px;
+  display: block;
+}
+
+.chip-12 {
+  background: url("../img/chip-12.png") no-repeat center;
+  background-size: 100% auto;
+  width: 61px;
+  height: 64px;
+  display: block;
+}
+
+.chip-11_pos {
+  position: absolute;
+  bottom: 6px;
+  right: 50px;
+}
+
+.chip-12_pos {
+  position: absolute;
+  top: 32px;
+  left: 50px;
+}
+
+.section-ninth__block-wrapper-phone {
+  background: url("../img/section-ninth__block-wrapper-phone.png") no-repeat center;
+  background-size: 100% auto;
+  width: 93px;
+  height: 188px;
+  display: block;
+  right: 42px;
+  bottom: 2px;
+  position: absolute;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    background: url("../img/Pi-Xiu-Ai-Poker.svg") no-repeat center;
+    background-size: 100% auto;
+  }
+}
+
+.dollar-1 {
+  background: url("../img/dollar-1.png") no-repeat center;
+  background-size: 100% auto;
+  width: 57px;
+  height: 63px;
+  display: block;
+  position: absolute;
+  top: 34px;
+  left: 46px;
+}
+
+.dollar-2 {
+  background: url("../img/dollar-2.png") no-repeat center;
+  background-size: 100% auto;
+  width: 100px;
+  height: 80px;
+  display: block;
+  position: absolute;
+  bottom: 57px;
+  right: -12px;
+}
+
+@media (max-width: 1199.98px) {
+  .section-ninth__block-wrapper-phone {
+    width: 20%;
+    height: 41%;
+    right: 25px;
+  }
+
+  .chip-01_position-1 {
+    left: 30%;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .playing-card,
+  .chip-04,
+  .playing-card-2,
+  .playing-card-3,
+  .chip-10,
+  .playing-card-4 {
+    display: none;
+  }
+
+  .chip-01_position-1 {
+    left: 48%;
+  }
+
+  .chip-01 {
+    width: 85px;
+    height: 85px;
+  }
+
+  .chip-02_position-1 {
+    bottom: 250px;
+    left: auto;
+    right: 10px;
+  }
+
+  .section-ninth__block-wrapper-phone {
+    width: 8%;
+    height: 41%;
+    right: 190px;
+    bottom: -15px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .chip-02,
+  .chip-01 {
+    display: none;
+  }
+
+  .human-bg-1 {
+    background: url("../img/human-bg-mob.png") no-repeat center;
+    background-size: 100% auto;
+    width: 542px;
+    height: 425px;
+    right: -46px;
+  }
+
+  .chip-06 {
+    width: 108px;
+    height: 100px;
+  }
+
+  .chip-06_position-1 {
+    bottom: -58px;
+    top: auto;
+    left: 50px;
+  }
+}

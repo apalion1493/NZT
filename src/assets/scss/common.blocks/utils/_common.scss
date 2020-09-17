@@ -1,0 +1,36 @@
+html, body {
+  font-family: 'Noto Sans SC', sans-serif;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+  background: #0D0D14;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.main-block {
+  position: relative;
+  z-index: 2;
+}
+
+.colorful-text {
+  color: $primary;
+}
+
+.section {
+  position: relative;
+}
+
+@media (min-width: 1200px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1266px;
+  }
+}

@@ -1,0 +1,75 @@
+.header {
+  margin-bottom: 80px;
+  position: relative;
+  padding-top: 71px;
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    color: #FFFFFF ;
+    font-size: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .navbar-nav {
+    margin-left: -24px;
+    margin-right: -24px;
+  }
+
+  .navbar {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-item_color .nav-link {
+    color: $primary;
+  }
+
+  .container {
+    z-index: 3;
+    position: relative;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .header .navbar-toggler {
+    background: linear-gradient(180deg, #1AC584 0%, #0394B9 100%);
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:focus {
+      outline: none;
+      box-shadow: none;
+      border: none;
+    }
+
+    .navbar-toggler-icon {
+      background: url("../img/burger-lines.svg") no-repeat center;
+      background-size: 100% auto;
+      width: 25px;
+      height: 25px;
+    }
+  }
+
+  .header {
+    .navbar-collapse {
+      margin-top: 30px;
+    }
+  }
+
+  .header .navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .header {
+    padding-top: 34px;
+    padding-bottom: 31px;
+    margin-bottom: 0;
+  }
+}
