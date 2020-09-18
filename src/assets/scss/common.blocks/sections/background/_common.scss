@@ -333,10 +333,14 @@
   }
 
   .corner-shadow-02 {
-    width: 915px;
+    width: 100%;
     height: 583px;
-    top: -250px;
-    left: 0;
-    right: auto;
+    top: -20px;
+    left: auto;
+    right: 0;
+    background: url("../img/corner-shadow-02-mob720.png") no-repeat center;
+    background-size: 100% auto;
+    filter: none;
+    border-radius: 0;
   }
 }
