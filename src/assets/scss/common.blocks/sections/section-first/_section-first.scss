@@ -6,7 +6,7 @@
   }
 
   &__title {
-    font-size: rem(64);
+    font-size: rem(72);
     line-height: rem(76);
     color: $white;
     font-weight: bold;
@@ -25,7 +25,7 @@
   }
 
   &__subTitle {
-    font-size: rem(30);
+    font-size: rem(40);
     line-height: rem(46);
     color: $white;
     display: block;
@@ -34,7 +34,7 @@
 
   &__infoText {
     color: $secondary;
-    font-size: rem(20);
+    font-size: rem(26);
     line-height: rem(50);
     display: block;
   }
