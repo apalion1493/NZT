@@ -35,7 +35,7 @@
 //}
 
 h2, .h2 {
-  font-size: rem(40);
+  font-size: rem(44);
   line-height: rem(60);
   color: $white;
   font-weight: bold;
@@ -43,19 +43,19 @@ h2, .h2 {
 
 
 .main-text {
-  font-size: rem(20);
+  font-size: rem(24);
   line-height: rem(36);
   color: $white;
 }
 
 @media (max-width: 767.98px) {
  .h2 {
-   font-size: rem(24);
+   font-size: rem(30);
    line-height: rem(36);
  }
 
   .main-text {
-    font-size: rem(14);
+    font-size: rem(18);
     line-height: rem(24);
   }
 }

@@ -5,6 +5,7 @@
   margin-left: -7px;
   margin-right: -7px;
   margin-top: 40px;
+  flex-wrap: wrap;
 }
 
 .section-eighth__item {
@@ -18,6 +19,7 @@
   margin-left: 7px;
   margin-right: 7px;
   position: relative;
+  margin-bottom: 11px;
 
   &:before {
     content: '';
@@ -71,16 +73,6 @@
 .section-eighth__wrapper-block {
   position: relative;
   z-index: 1;
-}
-
-@media (max-width: 991.98px) {
-  .section-eighth__list {
-    flex-wrap: wrap;
-  }
-
-  .section-eighth__item {
-    margin-bottom: 11px;
-  }
 }
 
 @media (max-width: 767.98px) {

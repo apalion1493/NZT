@@ -46,7 +46,7 @@
 
   &__list-text {
     font-weight: bold;
-    font-size: rem(18);
+    font-size: rem(20);
     line-height: rem(36);
     color: $white;
     margin-bottom: 0;
@@ -92,19 +92,19 @@
 
 @media (max-width: 767.98px) {
   .section-first__title {
-    font-size: rem(30);
+    font-size: rem(36);
     line-height: rem(40);
     text-align: center;
   }
 
   .section-first__subTitle {
-    font-size: rem(18);
+    font-size: rem(20);
     line-height: rem(30);
     text-align: center;
   }
 
   .section-first__infoText {
-    font-size: rem(14);
+    font-size: rem(18);
     line-height: rem(40);
     text-align: center;
   }

@@ -58,14 +58,14 @@
 
 .section-second__list-title {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 22px;
   color: #FFFFFF;
   margin-bottom: 3px;
 }
 
 .section-second__list-subTitle {
   font-weight: bold;
-  font-size: 16px;
+  font-size: 18px;
   color: $secondary;
 }
 
@@ -150,6 +150,8 @@
     transform: translateX(0);
     width: auto;
     height: auto;
+    display: flex;
+    flex-direction: column;
   }
 
   .section-second__list {
@@ -159,15 +161,16 @@
     margin-left: auto;
     margin-right: auto;
     padding-right: 0;
-    width: 192px;
+    width: auto;
+    display: inline-block;
     margin-top: 37px;
   }
 
   .section-second__list-subTitle {
-    font-size: rem(14);
+    font-size: rem(18);
   }
 
   .section-second__list-title {
-    font-size: rem(18);
+    font-size: rem(22);
   }
 }
