@@ -52,8 +52,8 @@
     padding-top: 0;
 
     img {
-      max-width: 330px;
-      width: 100%;
+      width: 330px;
+
     }
   }
 
@@ -82,6 +82,11 @@
 
   .section-fifth__imgWrapper{
     justify-content: center;
+
+    img {
+      width: 100%;
+      object-fit: cover;
+    }
   }
 
   .section-fifth__imgWrapper:before {
